@@ -58,8 +58,13 @@ class SnapshotArray(object):
         while (left <= right):
             mid = (left+right)/2
             (val, s_id) = self.array_history[index][array_index]
-            if 
-        return bi_search(0, len(self.array_history[index])-1)
+            if (s_id <= snap_id):
+                ret = val
+                left = mid + 1
+            else:
+                right = mid - 1
+        return ret
+        # return bi_search(0, len(self.array_history[index])-1)
 
 # Your SnapshotArray object will be instantiated and called as such:
 # obj = SnapshotArray(length)
