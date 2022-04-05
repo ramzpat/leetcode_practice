@@ -3,7 +3,6 @@
 # The isBadVersion API is already defined for you.
 # @param version, an integer
 # @return a bool
-# def isBadVersion(version):
 
 class Solution(object):
     def firstBadVersion(self, n):
@@ -15,9 +14,9 @@ class Solution(object):
         bad_version = 0
         while(left <= right):
             version = (left + right)//2
-            if (isBadVersion(version)):
+            if (isBadVersion(version+1)):
                 bad_version = version
                 right = version - 1
             else: 
                 left = version + 1
-        return bad_version
+        return bad_version+1
