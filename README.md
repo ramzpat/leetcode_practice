@@ -7,8 +7,11 @@ This is my repository for polishing my programming skill
 - 1055: # https://leetcode.com/problems/shortest-way-to-form-string/
 - https://leetcode.com/problems/minimum-cost-to-set-cooking-time/
 - https://leetcode.com/problems/maximum-length-of-repeated-subarray/ 
-
-
+- array:
+  - [container-with-most-water](https://leetcode.com/problems/container-with-most-water/)
+  - [3sum](https://leetcode.com/problems/3sum/)
+  - [sliding-window-maximum](https://leetcode.com/problems/sliding-window-maximum/)
+  - 
 # Read:
 - https://www.techinterviewhandbook.org/
   - [Coding interview study plan](https://www.techinterviewhandbook.org/coding-interview-study-plan/)
