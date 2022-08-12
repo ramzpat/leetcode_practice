@@ -11,7 +11,8 @@ This is my repository for polishing my programming skill
   - [container-with-most-water](https://leetcode.com/problems/container-with-most-water/)
   - [3sum](https://leetcode.com/problems/3sum/)
   - [sliding-window-maximum](https://leetcode.com/problems/sliding-window-maximum/)
-  - 
+  - [kth smallest element in BST (iteration)](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
+
 # Read:
 - https://www.techinterviewhandbook.org/
   - [Coding interview study plan](https://www.techinterviewhandbook.org/coding-interview-study-plan/)
