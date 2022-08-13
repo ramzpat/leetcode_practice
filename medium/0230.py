@@ -43,7 +43,27 @@ class Solution:
     return ans_k[0]
 
   # Interation
-  # def kthSmallest(self, root: Optional[TreeNode], k: int) -> int:
-  #   current_index = 0
-  #   stk = [root]  
+  def kthSmallest(self, root: Optional[TreeNode], k: int) -> int:
+    current_index = 0
+    stk = []
+    ptr = root
+    # ptr can go to the left or there is a node in the stack (upper node)
+    while ptr or len(stk) > 0:
+      # Go to the left first if ptr node exists (dfs)
+      while(ptr != None):
+        stk.append(ptr)
+        ptr = ptr.left
+      # pop the latest nodes (most-left node) from the stack
+      ptr = stk.pop()      
+
+      # index of the ptr is (current index + 1)
+      current_index += 1
+      if current_index == k:
+        # we got an answer!
+        return ptr.val 
+      
+      # we need to go to the right node of ptr
+      ptr = ptr.right  
+      
+    raise AssertionError("cannot find kth smallest value")
     
