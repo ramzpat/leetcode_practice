@@ -10,6 +10,7 @@ This is my repository for polishing my programming skill
 - [container-with-most-water](https://leetcode.com/problems/container-with-most-water/)
 - [3sum](https://leetcode.com/problems/3sum/)
 - [sliding-window-maximum](https://leetcode.com/problems/sliding-window-maximum/)
+- [Last Stone Weight II](https://leetcode.com/problems/last-stone-weight-ii/)
 
 # Read:
 - https://www.techinterviewhandbook.org/
